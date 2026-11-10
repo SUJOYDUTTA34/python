@@ -1,4 +1,5 @@
 # Count Vowels and Consonants Program
+# This program counts vowels and consonants in a user-entered string.
 
 text = input("Enter a string: ").lower()
 vowels = "aeiou"

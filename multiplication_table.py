@@ -1,4 +1,5 @@
 # Multiplication Table Program
+# This program prints the multiplication table of a number from 1 to 10.
 
 number = int(input("Enter a number: "))
 
