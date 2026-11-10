@@ -1,0 +1,17 @@
+# Prime Number Checker
+
+number = int(input("Enter a number: "))
+
+if number <= 1:
+    print(f"{number} is not a Prime Number")
+else:
+    is_prime = True
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(f"{number} is a Prime Number")
+    else:
+        print(f"{number} is not a Prime Number")
